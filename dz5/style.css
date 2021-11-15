@@ -1,0 +1,32 @@
+ .font-popins-100 {font-weight: 100;}
+ .font-popins-300 {font-weight: 300;}
+ .font-popins-400 {font-weight: 400;}
+ .font-popins-700 {font-weight: 700;}
+ .font-popins {font-family: 'Poppins', sans-serif;}
+ .font-akronim {font-family: "Akronim";}
+ .list {margin: 25px;}
+ .list-left { text-align: left;}
+ .list-center { text-align: center;}
+ .list-right { text-align: right;}
+ .list-item {list-style: none; display: inline-block; margin-right:25px;}
+ .list-link { color: coral;}
+  @font-face {font-family: "Akronim";
+  src: url(Akronim-Regular.woff) format("woff");}
+.font-akronim-400 {font-weight: 400;}
+.text {color: darkblue;}
+.text-left {text-align: left;}
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+.hover-link {color: rgb(51, 39, 51);}
+.hover-link-red:hover {color: red;}
+.hover-link-blue:hover {color: blue;}
+.hover-link-green:hover {color: green;}
+.hover-link-yellow:hover {color: yellow;}
+.hover-link-grey:hover {color: grey;}
+.div-shape {height: 50px; width: 50px;}
+.div-inline {display: inline-block;}
+.div-square {border-radius: 10px;}
+.div-circle {border-radius: 25px;}
+.div-color-red {background-color: red;}
+.div-color-yellow {background-color: yellow;}
+.div-color-green {background-color: green;}
