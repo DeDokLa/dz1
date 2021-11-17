@@ -1,0 +1,160 @@
+
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  .our-team {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 125px;
+    padding-bottom: 80px;
+  }
+  
+  .description {
+    padding: 0 50px;
+    text-align: center;
+  }
+  
+  .above-heading {
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+  }
+  
+  .heading {
+    position: relative;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 85px;
+  }
+  
+  .heading::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 60px;
+    left: 102px;
+    bottom: -40px;
+    background-color: #f38181;
+  }
+  
+  .text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 0;
+    color: #b6b6b6;
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  .image {
+    margin-bottom: 30px;
+  }
+  
+  .name {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-variant: small-caps;
+    line-height: 17px;
+    text-align: center;
+    color: #333333;
+    margin: 0 0 11px 0;
+  }
+  
+  .position {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #b6b6b6;
+    margin: 0;
+  }
+  
+  .card {
+    position: relative;
+  }
+  
+  .hover {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 380px;
+    height: 470px;
+    top: 10px;
+    left: 10px;
+  
+    background: linear-gradient(
+      180deg,
+      rgba(65, 245, 48, 0.8) 0%,
+      rgba(120, 108, 230, 0.8) 100%
+    );
+    opacity: 0;
+    overflow: hidden;
+    transition-duration: 750ms;
+  }
+  
+  .card:hover .hover {
+    opacity: 1;
+    transform: translate(-20px, -20px);
+  }
+  
+  .social-list {
+    display: flex;
+    opacity: 0;
+    transform: translateY(75%);
+  }
+  
+  .card:hover .social-list {
+    opacity: 1;
+    transition-duration: 750ms;
+    transition-delay: 300ms;
+    transform: translateY(45%);
+  }
+  
+  .social-item {
+    width: 57px;
+    height: 57px;
+    background: #fce38a;
+    margin-right: 1px;
+    transition-duration: 150ms;
+  }
+  
+  .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 57px;
+    height: 57px;
+  }
+  
+  .social-item:last-child {
+    margin: 0;
+  }
+  .social-item:hover {
+    background-color: #95e1d3;
+  }
